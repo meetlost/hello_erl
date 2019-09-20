@@ -1,0 +1,15 @@
+{application, hello_erl,
+ [{description, "A hello world app written in Erlang/OTP."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {hello_erl_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["BSD"]},
+  {links, []}
+ ]}.
