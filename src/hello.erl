@@ -12,7 +12,7 @@ start() ->
 
 loop() ->
 	receive
-		after 3000 ->
-			io:format("hello, world~n"),
-			loop()
-	end.
+		after 5000 ->
+			io:format("hello, world~n")
+	end,
+	loop().
