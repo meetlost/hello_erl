@@ -1,7 +1,7 @@
 hello_erl
 =====
 
-An Erlang/OTP application
+A hello world app written in Erlang/OTP.
 
 Build
 -----
