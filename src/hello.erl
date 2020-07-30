@@ -8,11 +8,12 @@
 -export([start/0]).
 
 start() ->
-	loop().
+    loop().
 
 loop() ->
-	receive
-		after 5000 ->
-			io:format("hello, world~n")
-	end,
-	loop().
+    receive
+    after
+	5000 ->
+	    io:format("hello, world~n")
+    end,
+    loop().

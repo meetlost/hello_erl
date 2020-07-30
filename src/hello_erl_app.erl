@@ -9,10 +9,8 @@
 
 -export([start/2, stop/1]).
 
-start(_StartType, _StartArgs) ->
+start(_, _) ->
     hello_erl_sup:start_link().
 
-stop(_State) ->
+stop(_) ->
     ok.
-
-%% internal functions
